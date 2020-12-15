@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.ZapamietajNumerPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="10,0,10,0">
+            <Label x:Name="LiczbaLabel"
+                LineBreakMode="WordWrap"
+                Text=""
+                   FontSize="26"/>
+            <Entry x:Name="AnswerEntry"
+                   IsEnabled="False"
+                   Keyboard="Numeric"/>
+            <Button x:Name="AnswerButton"
+                    Text="Potwierdź wpisaną liczbę"
+                    Clicked="AnswerButton_Clicked"
+                    IsEnabled="False"/>
+            <Button x:Name="StartButton"
+                    Text="Start"
+                    Clicked="StartButton_Clicked"/>
+            <Label x:Name="ElapsedLabel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

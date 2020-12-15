@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Blue">#1E90FF</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource Blue}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.CzasReakcjiPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="10,0,10,0">
+            <Button x:Name="ReactionButton"
+                    HeightRequest="100"
+                    Clicked="ReactionButton_Clicked"/>
+            <Button x:Name="StartButton"
+                    Clicked="StartButton_Clicked"
+                    Text="Start"
+                    HeightRequest="100"
+                    Margin="0,30,0,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

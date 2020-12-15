@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.ByloNieByloPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="10,0,10,0">
+            <Label x:Name="wordLabel"             
+                   HorizontalTextAlignment="Center" FontSize="32"/>
+            <Button x:Name="ByloButton"
+                    Text="Bylo"
+                    BackgroundColor="ForestGreen"
+                    Margin="0,30,0,0"
+                    Clicked="ByloButton_Clicked"
+                    IsEnabled="False"/>
+            <Button x:Name="NieByloButton"
+                    Text="Nie było"
+                    BackgroundColor="OrangeRed"
+                    Margin="0,30,0,0"
+                    Clicked="NieByloButton_Clicked"
+                    IsEnabled="False"/>
+            <Button x:Name="StartButton"
+                    Text="Rozpocznij"
+                    Margin="0,30,0,0"
+                    Clicked="StartButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

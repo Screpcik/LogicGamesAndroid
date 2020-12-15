@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.DzialaniaMatematycznePage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="10,0,10,0">
+            <Label x:Name="answerLabel"/>
+            <Label x:Name="wynikLabel" />
+            <Label x:Name="DzialanieLabel" 
+                   FontSize="51"
+                   HorizontalOptions="Center"/>
+            <Entry x:Name="AnswerEntry"
+                   Keyboard="Numeric"
+                   Placeholder="Wprowadź wynik"/>
+            <Button x:Name="answerButton"
+                    Text="Sprawdź"
+                    Clicked="answerButton_Clicked"
+                    IsEnabled="False"/>
+            <Button x:Name="StartButton"
+                    Margin="0,20,0,0"
+                    Text="Start"
+                    Clicked="StartButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

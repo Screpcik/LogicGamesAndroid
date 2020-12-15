@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.OdNajmniejszegoPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="10,0,10,0">
+            <Label x:Name="JustLabel"/>
+            <Label x:Name="numbersLabel"
+                   LineBreakMode="WordWrap"
+                   FontSize="28"
+                   Text=""/>
+            <Entry x:Name="answerEntry"
+                   Keyboard="Numeric"/>
+            <Button x:Name="sprawdzButton"
+                    Text="Sprawdź"
+                    IsEnabled="False"
+                    Margin="0,30,0,30"
+                    Clicked="sprawdzButton_Clicked"/>
+            <Button x:Name="startButton"
+                    Text="Start"
+                    Clicked="startButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

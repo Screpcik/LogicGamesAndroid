@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogicGamesAndroid.MenuPage"
+            xmlns:local="clr-namespace:LogicGamesAndroid">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Opis Gier"
+                     Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+    
+    <local:DzialaniaMatematycznePage Title="+"/>
+    <local:ByloNieByloPage Title="BNB"/>
+    <local:CzasReakcjiPage Title="CZAS"/>
+    <local:OdNajmniejszegoPage Title="123"/>
+    <local:ZapamietajNumerPage Title="Myśl"/>
+    <local:RankingPage Title="Rank"/>
+</TabbedPage>
